@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AuthorRegistration</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima:wght@500&display=swap" rel="stylesheet">
+	
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+
+<script src="../js/script.js"></script>
+</head>
+
+<body>
+	<header>
+		<div class="heading">
+			<span class="logo"><img src="../img/upsilonlogo.png" alt="upsilon publications" height="40px"></span>
+			<span class="pub_name">Upsilon Publications</span>		
+		</div>
+	</header>
+		
+		<div class="nav">
+			<span class="home"><a href="../index.html">Home</a></span>
+			<span class="books"><a href="booklist.html">Books</a></span>
+			<span class="author_reg"><a href="authreg.html">Author Registration</a></span>
+			<span class="feedback"><a href="feedback.html">Feedback</a></span>
+		</div>
+	
+	<h2 style="text-align: center;">Please fill out the Registration form</h2>
+	
+	<div class="information">
+		
+		<form name="Authreg" method="post" onsubmit="return validateform()">
+			<label for="name">Enter your name: </label>
+			<input type="text" name="name" class="checkempty">
+			<span id="notname" class="notgiven"></span>
+			<br />
+
+			<label for="mailid">Enter your e-mail here: </label>
+			<input type="email" name="mailid" class="checkempty">
+			<span id="notmail" class="notgiven"></span>
+			<br />
+
+			<label for="phone" type="text">Enter your phone number: </label>
+			<input type="text" name="phone" class="checkempty">
+			<span id="notphone" class="notgiven"></span>
+			<br />
+
+			<label for="pbooktitle">What is your book title: </label>
+			<input type="text" name="pbooktitle" class="checkempty">
+			<span id="notpbt" class="notgiven"></span>
+			<br />
+
+			<label for="exttfb">Expected time to finish the book: </label>
+			<input type="date" name="exttfb" class="checkempty">
+			<span id="notet" class="notgiven"></span>
+			<br />
+			<br />
+
+			<button type="submit" value="Submit" class="submit-button">Submit</button>
+		
+		</form>
+		
+		
+		
+	
+	</div>
+	
+	<div class="contact-deets">
+			<p>Contact us using any of the following options</p>
+			<div class="telephone">
+				<img src="../img/telephone.png" alt="tel">+91 7004373733
+			</div>
+			<br />
+			
+			<div class="whatsapp">
+				<img src="../img/whatsapp.png" alt="whatsapp">+91 8757519460
+			</div>
+			<br />
+			
+	</div>
+	
+	
+	</body>
+</html>

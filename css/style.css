@@ -1,0 +1,172 @@
+
+body {
+	background-color: #c197d2;
+	background-attachment: fixed;
+}
+
+.heading {
+	text-align: center;
+	font-family: 'Arima', cursive;
+	background-color: darkslategray;
+	
+	border: 5px solid rgba(85,34,85,1.00);
+	border-radius: 8px;
+	padding-top: 16px;
+	margin-top: 20px;
+}
+
+.nav {
+	display: flex;
+	border: 5px solid rgba(85,34,85,1.00);
+	border-radius: 8px;
+	padding-top: 16px;
+	background-color: #613659;
+	text-align: center;
+	justify-content: space-between;
+	justify-content: space-between;
+	font-family: 'PT Serif', serif;
+	color: yellowgreen;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.nav span {
+	background-color: crimson;
+	padding: 4px 50px;
+	border: 3px solid yellowgreen;
+	margin: 0.8% auto;
+}
+
+.logo, .pub_name {
+	color: orange;
+	font-size: 40px;
+    display: inline-flex;
+	
+	
+}
+
+.logo {
+	
+	border: 5px solid orange;
+}
+
+.welcome {
+	
+	margin-top: 0px;
+	padding-top: 26px;
+	background-color:cornflowerblue;
+	text-align: center;
+
+	
+	font-family: 'PT Serif', serif;
+	color: aliceblue;
+}
+
+.categories {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-right: 20%;
+	margin-left: 20%;
+	justify-content: space-around;
+	
+	
+}
+
+div.categories div {
+	height: 240px;
+	width: 240px;
+	border: 5px solid rgba(93,96,214,0.82);
+	background-color: rgba(93,96,190,0.82);
+	margin-bottom: 30px;
+	border-radius: 18px;
+	text-align: center;
+	font-family: 'PT Serif', serif;
+	color: #211522;
+	
+	
+}
+
+div.categories img {
+	width: 240px;
+	height: 240px;
+	
+}
+
+.contact-deets {
+	margin-top: 0px;
+	padding-top: 26px;
+	background-color:cornflowerblue;
+	text-align: center;
+
+	
+	font-family: 'PT Serif', serif;
+	
+	color: aliceblue;
+	font-weight: 300;
+}
+
+.contact-deets img {
+	height: 40px;
+	width: 40px;
+	
+}
+
+.information {
+	margin: 3% 10%;
+}
+
+table {
+	
+	background-color: midnightblue;
+	width: 800px;
+	margin: auto;
+	color: yellow;
+	
+}
+
+th, td {
+	border: 2px solid pink;
+	padding: 12px;
+	border-radius: 4px;
+}
+
+.information input {
+	border: 0;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 27px;
+	width: 230px;
+	color: coral;
+	
+}
+
+.information label {
+	display: inline-block;
+	width: 240px;
+	color: aliceblue;
+	font-family: 'Arima', cursive;
+}
+
+.information textarea {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 400px;
+	height: 230px;
+}
+
+.submit-button {
+	background-color: #5a3e79;
+	color: floralwhite;
+	border: 0;
+	border-radius: 3px;
+	width: 200px;
+	height: 30px;
+}
+
+.notgiven {
+	font-size: 24px;
+	margin-left: 30px;
+	color: darkred;
+}
